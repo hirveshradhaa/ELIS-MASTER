@@ -1,3 +1,33 @@
+
+# ELIS-MASTER
+
+A C++ implementation of a time-series classification framework based on shapelet discovery and classification, designed to work with datasets from the [UCR Time Series Classification Archive](http://www.cs.ucr.edu/~eamonn/time_series_data/).
+
+## Project Overview
+
+ELIS-MASTER is a C++ project that implements a time-series classification framework using shapelets. Shapelets are small, discriminative subsequences within time series data that are highly effective in distinguishing between classes.
+
+ What It Does
+
+- Shapelet Discovery: Identifies the most relevant subsequences (shapelets) from the training dataset that best separate different classes.
+- Shapelet Adjustment & Classifier Training: Fine-tunes shapelets to improve classification performance and train the model.
+- Prediction: Uses the trained shapelets to classify unseen time series in the test set and output results.
+
+Why It’s Important
+
+- Supports **interpretable time-series classification**, crucial in fields like finance, healthcare, and IoT.
+- Efficient and scalable implementation using C++ and standard build tools like CMake.
+- Utilizes datasets from the [UCR Time Series Benchmark](http://www.cs.ucr.edu/~eamonn/time_series_data/) for standardized benchmarking.
+
+## Key Features
+
+- Discover shapelet candidates from training time series data
+- Adjust shapelets and train the classifier
+- Predict and classify test time series
+- Modular and extensible C++ codebase
+
+
+
 After downloading the file, all the required files in the Final Project Folder.
 
 ## Building the Project:
